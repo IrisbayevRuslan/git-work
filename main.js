@@ -1,4 +1,5 @@
-const btnclilck =document.querySelector("btn")
+const btnclilck =document.querySelector(".btn")
+
  function getRandomColor() {
   var letters = '0123456789ABCDEF';
   var color = '#';
@@ -9,5 +10,6 @@ const btnclilck =document.querySelector("btn")
 }
 btnclilck.addEventListener('click',() => {
 var randomColor = getRandomColor();
- btnclilck.style.color  =randomColor
+ btnclilck.style.background  = randomColor;
 })
+
