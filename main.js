@@ -1,0 +1,1 @@
+const btnclilc =document.querySelector("btn")
